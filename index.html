@@ -1,10 +1,23 @@
 <!doctype html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="blue" data-color-scheme="dark">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Azure Review &mdash; Glossary &amp; Decisions</title>
+    <script>
+      (function() {
+        var mode = localStorage.getItem('theme-mode');
+        var theme = localStorage.getItem('theme') || 'blue';
+        var dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.setAttribute('data-theme', theme);
+        if (mode === 'dark' || (!mode && dark)) {
+          document.documentElement.setAttribute('data-color-scheme', 'dark');
+        } else if (mode === 'light') {
+          document.documentElement.setAttribute('data-color-scheme', 'light');
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="app"></div>

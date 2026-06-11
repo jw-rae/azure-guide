@@ -11,6 +11,7 @@
     "deploy": "node scripts/deploy.mjs"
   },
   "dependencies": {
+    "@jwrae/design-tokens": "^1.0.3",
     "fuse.js": "^7.4.2",
     "marked": "^18.0.5",
     "vue": "^3.5.34",
