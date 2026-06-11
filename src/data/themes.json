@@ -1,0 +1,23 @@
+{
+  "themes": [
+    "Azure Fundamentals & Governance",
+    "Azure Storage",
+    "Compute, Containers & Serverless",
+    "Databases & Analytics",
+    "Identity & Governance",
+    "Monitoring, Backup & Disaster Recovery",
+    "Networking & Content Delivery",
+    "Security, Identity Concepts & IT Standards"
+  ],
+  "categories": [
+    "compute",
+    "databases",
+    "identity & governance",
+    "messaging",
+    "migration",
+    "monitoring & backup",
+    "networking",
+    "patterns",
+    "storage"
+  ]
+}

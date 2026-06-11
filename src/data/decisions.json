@@ -1,0 +1,474 @@
+{
+  "decisions": [
+    {
+      "id": 1,
+      "title": "Compute Hosting — VM vs App Service vs AKS vs ACA vs Functions",
+      "category": "compute",
+      "file": "compute/compute-hosting.md",
+      "slug": "compute-compute-hosting",
+      "glossaryRefs": [
+        "azure-app-service",
+        "container",
+        "serverless",
+        "azure-functions"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "App Service Plan Tiers",
+      "category": "compute",
+      "file": "compute/app-service-tiers.md",
+      "slug": "compute-app-service-tiers",
+      "glossaryRefs": [
+        "app-service-plan",
+        "deployment-slot",
+        "vnet-integration",
+        "private-endpoint"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "VM Scale Set Orchestration — Uniform vs Flexible",
+      "category": "compute",
+      "file": "compute/vmss-orchestration.md",
+      "slug": "compute-vmss-orchestration",
+      "glossaryRefs": []
+    },
+    {
+      "id": 4,
+      "title": "Functions vs Logic Apps",
+      "category": "compute",
+      "file": "compute/functions-vs-logicapps.md",
+      "slug": "compute-functions-vs-logicapps",
+      "glossaryRefs": [
+        "serverless",
+        "azure-functions",
+        "durable-functions",
+        "cold-start",
+        "azure-logic-apps"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Container Hosting — ACI vs AKS vs ACA",
+      "category": "compute",
+      "file": "compute/container-hosting.md",
+      "slug": "compute-container-hosting",
+      "glossaryRefs": [
+        "container",
+        "container-group",
+        "pod"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Batch Processing — Azure Batch vs Functions vs AKS",
+      "category": "compute",
+      "file": "compute/batch-processing.md",
+      "slug": "compute-batch-processing",
+      "glossaryRefs": []
+    },
+    {
+      "id": 7,
+      "title": "Storage Service — Blob vs Files vs Disks vs Tables vs Queues",
+      "category": "storage",
+      "file": "storage/storage-service.md",
+      "slug": "storage-storage-service",
+      "glossaryRefs": [
+        "managed-disk",
+        "azure-queue-storage",
+        "azure-blob-storage",
+        "azure-files",
+        "azure-table-storage"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Access Tier — Hot vs Cool vs Cold vs Archive",
+      "category": "storage",
+      "file": "storage/access-tier.md",
+      "slug": "storage-access-tier",
+      "glossaryRefs": [
+        "hot-tier",
+        "cool-tier",
+        "cold-tier",
+        "archive-tier",
+        "lifecycle-management-policy"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Redundancy — LRS vs ZRS vs GRS vs GZRS (RA variants)",
+      "category": "storage",
+      "file": "storage/redundancy.md",
+      "slug": "storage-redundancy",
+      "glossaryRefs": []
+    },
+    {
+      "id": 10,
+      "title": "Account Type — GPv2 vs Premium variants",
+      "category": "storage",
+      "file": "storage/account-type.md",
+      "slug": "storage-account-type",
+      "glossaryRefs": []
+    },
+    {
+      "id": 11,
+      "title": "Data Protection — Soft Delete vs Versioning vs PITR vs Immutable",
+      "category": "storage",
+      "file": "storage/data-protection.md",
+      "slug": "storage-data-protection",
+      "glossaryRefs": [
+        "point-in-time-restore",
+        "soft-delete",
+        "immutable-storage",
+        "blob-versioning",
+        "change-feed",
+        "object-replication"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "SQL Deployment — SQL DB vs SQL MI vs SQL VM",
+      "category": "databases",
+      "file": "databases/sql-deployment.md",
+      "slug": "databases-sql-deployment",
+      "glossaryRefs": [
+        "azure-sql-database",
+        "azure-sql-managed-instance",
+        "sql-server-on-azure-vm",
+        "azure-hybrid-benefit-sql"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "SQL Purchasing Model — vCore vs DTU vs Serverless vs Hyperscale",
+      "category": "databases",
+      "file": "databases/sql-purchasing-model.md",
+      "slug": "databases-sql-purchasing-model",
+      "glossaryRefs": [
+        "azure-hybrid-benefit-sql",
+        "vcore",
+        "vcore-compute-tiers",
+        "elastic-pool",
+        "hyperscale"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "SQL DR — Geo-Replication vs Failover Groups vs Geo-Restore vs ASR",
+      "category": "databases",
+      "file": "databases/sql-dr.md",
+      "slug": "databases-sql-dr",
+      "glossaryRefs": []
+    },
+    {
+      "id": 15,
+      "title": "SQL Security — TDE vs Always Encrypted vs Dynamic Data Masking",
+      "category": "databases",
+      "file": "databases/sql-security.md",
+      "slug": "databases-sql-security",
+      "glossaryRefs": []
+    },
+    {
+      "id": 16,
+      "title": "Cosmos DB API — NoSQL vs MongoDB vs Table vs Gremlin vs Cassandra vs PostgreSQL",
+      "category": "databases",
+      "file": "databases/cosmos-api.md",
+      "slug": "databases-cosmos-api",
+      "glossaryRefs": []
+    },
+    {
+      "id": 17,
+      "title": "Cosmos DB Consistency — Strong vs Bounded Staleness vs Session vs Prefix vs Eventual",
+      "category": "databases",
+      "file": "databases/cosmos-consistency.md",
+      "slug": "databases-cosmos-consistency",
+      "glossaryRefs": []
+    },
+    {
+      "id": 18,
+      "title": "Cosmos DB Throughput — Provisioned vs Auto-Scale vs Serverless",
+      "category": "databases",
+      "file": "databases/cosmos-throughput.md",
+      "slug": "databases-cosmos-throughput",
+      "glossaryRefs": [
+        "azure-cosmos-db",
+        "cosmos-db-container",
+        "cosmos-db-consistency-levels"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Analytics Storage — Data Lake Gen2 vs Synapse SQL vs Lakehouse",
+      "category": "databases",
+      "file": "databases/analytics-storage.md",
+      "slug": "databases-analytics-storage",
+      "glossaryRefs": []
+    },
+    {
+      "id": 20,
+      "title": "Data Processing — ETL vs ELT",
+      "category": "databases",
+      "file": "databases/etl-vs-elt.md",
+      "slug": "databases-etl-vs-elt",
+      "glossaryRefs": []
+    },
+    {
+      "id": 21,
+      "title": "Load Balancer — LB vs App Gateway vs Front Door vs Traffic Manager",
+      "category": "networking",
+      "file": "networking/load-balancer-comparison.md",
+      "slug": "networking-load-balancer-comparison",
+      "glossaryRefs": [
+        "azure-load-balancer",
+        "health-probe",
+        "azure-application-gateway",
+        "azure-traffic-manager",
+        "azure-front-door"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Hybrid Connectivity — VPN vs ExpressRoute vs Virtual WAN",
+      "category": "networking",
+      "file": "networking/hybrid-connectivity.md",
+      "slug": "networking-hybrid-connectivity",
+      "glossaryRefs": [
+        "private-endpoint",
+        "azure-bastion"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "PaaS Connectivity — Service Endpoint vs Private Endpoint vs Private Link",
+      "category": "networking",
+      "file": "networking/paas-connectivity.md",
+      "slug": "networking-paas-connectivity",
+      "glossaryRefs": []
+    },
+    {
+      "id": 24,
+      "title": "Network Security — NSG vs ASG vs Firewall vs WAF vs DDoS",
+      "category": "networking",
+      "file": "networking/network-security.md",
+      "slug": "networking-network-security",
+      "glossaryRefs": [
+        "azure-firewall",
+        "azure-bastion"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Public IP SKU — Basic vs Standard",
+      "category": "networking",
+      "file": "networking/public-ip-sku.md",
+      "slug": "networking-public-ip-sku",
+      "glossaryRefs": []
+    },
+    {
+      "id": 26,
+      "title": "AKS Networking — Kubenet vs Azure CNI vs Overlay",
+      "category": "networking",
+      "file": "networking/aks-networking.md",
+      "slug": "networking-aks-networking",
+      "glossaryRefs": []
+    },
+    {
+      "id": 27,
+      "title": "VNet Connectivity — Peering vs VPN Gateway vs ExpressRoute",
+      "category": "networking",
+      "file": "networking/vnet-connectivity.md",
+      "slug": "networking-vnet-connectivity",
+      "glossaryRefs": []
+    },
+    {
+      "id": 28,
+      "title": "Workload Identity — Managed Identity (System/User) vs Service Principal",
+      "category": "identity & governance",
+      "file": "identity-governance/workload-identity.md",
+      "slug": "identity-governance-workload-identity",
+      "glossaryRefs": []
+    },
+    {
+      "id": 29,
+      "title": "Hybrid Auth — PHS vs PTA vs AD FS vs Cloud Sync",
+      "category": "identity & governance",
+      "file": "identity-governance/hybrid-auth.md",
+      "slug": "identity-governance-hybrid-auth",
+      "glossaryRefs": []
+    },
+    {
+      "id": 30,
+      "title": "Privileged Access — PIM vs Access Reviews vs Conditional Access",
+      "category": "identity & governance",
+      "file": "identity-governance/privileged-access.md",
+      "slug": "identity-governance-privileged-access",
+      "glossaryRefs": []
+    },
+    {
+      "id": 31,
+      "title": "Entra ID License — Free vs P1 vs P2 vs Governance",
+      "category": "identity & governance",
+      "file": "identity-governance/license-tiers.md",
+      "slug": "identity-governance-license-tiers",
+      "glossaryRefs": []
+    },
+    {
+      "id": 32,
+      "title": "Governance Tool — Policy vs RBAC vs Blueprint vs Locks",
+      "category": "identity & governance",
+      "file": "identity-governance/governance-tool.md",
+      "slug": "identity-governance-governance-tool",
+      "glossaryRefs": []
+    },
+    {
+      "id": 33,
+      "title": "Policy Effect — Audit vs Deny vs Modify vs Append",
+      "category": "identity & governance",
+      "file": "identity-governance/policy-effect.md",
+      "slug": "identity-governance-policy-effect",
+      "glossaryRefs": []
+    },
+    {
+      "id": 34,
+      "title": "Key Vault Access — RBAC vs Access Policies",
+      "category": "identity & governance",
+      "file": "identity-governance/keyvault-access.md",
+      "slug": "identity-governance-keyvault-access",
+      "glossaryRefs": []
+    },
+    {
+      "id": 35,
+      "title": "Monitoring — Monitor vs Log Analytics vs App Insights vs Sentinel",
+      "category": "monitoring & backup",
+      "file": "monitoring-backup/monitoring-solution.md",
+      "slug": "monitoring-backup-monitoring-solution",
+      "glossaryRefs": []
+    },
+    {
+      "id": 36,
+      "title": "Backup vs DR — Backup vs ASR vs Snapshot vs Geo-Replication",
+      "category": "monitoring & backup",
+      "file": "monitoring-backup/backup-vs-dr.md",
+      "slug": "monitoring-backup-backup-vs-dr",
+      "glossaryRefs": []
+    },
+    {
+      "id": 37,
+      "title": "Telemetry — Metrics vs Logs vs Traces",
+      "category": "monitoring & backup",
+      "file": "monitoring-backup/telemetry-type.md",
+      "slug": "monitoring-backup-telemetry-type",
+      "glossaryRefs": []
+    },
+    {
+      "id": 38,
+      "title": "Monitoring Agent — AMA vs Legacy Agents",
+      "category": "monitoring & backup",
+      "file": "monitoring-backup/monitoring-agent.md",
+      "slug": "monitoring-backup-monitoring-agent",
+      "glossaryRefs": []
+    },
+    {
+      "id": 39,
+      "title": "Vault Type — Recovery Services Vault vs Backup Vault",
+      "category": "monitoring & backup",
+      "file": "monitoring-backup/vault-type.md",
+      "slug": "monitoring-backup-vault-type",
+      "glossaryRefs": []
+    },
+    {
+      "id": 40,
+      "title": "Messaging — Queue Storage vs Service Bus vs Event Hubs vs Event Grid",
+      "category": "messaging",
+      "file": "messaging/messaging-service.md",
+      "slug": "messaging-messaging-service",
+      "glossaryRefs": []
+    },
+    {
+      "id": 41,
+      "title": "Database Migration — Migrate vs DMA vs DMS vs Data Studio",
+      "category": "migration",
+      "file": "migration/database-migration.md",
+      "slug": "migration-database-migration",
+      "glossaryRefs": []
+    },
+    {
+      "id": 42,
+      "title": "Data Transfer — AzCopy vs Data Box vs Import/Export vs Storage Migration Service vs File Sync",
+      "category": "migration",
+      "file": "migration/data-transfer.md",
+      "slug": "migration-data-transfer",
+      "glossaryRefs": []
+    },
+    {
+      "id": 43,
+      "title": "Event-Driven Data Pipeline — Functions + Event Grid + Cosmos DB Change Feed",
+      "category": "patterns",
+      "file": "patterns/event-driven-pipeline.md",
+      "slug": "patterns-event-driven-pipeline",
+      "glossaryRefs": [
+        "azure-functions",
+        "azure-cosmos-db"
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Identity Governance Stack — PIM + Access Reviews + Conditional Access",
+      "category": "patterns",
+      "file": "patterns/identity-governance-stack.md",
+      "slug": "patterns-identity-governance-stack",
+      "glossaryRefs": [
+        "entra-id-license-tiers",
+        "microsoft-entra-access-review",
+        "entra-id-conditional-access",
+        "entra-id-protection"
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Web App Security Stack — Front Door + App Gateway + WAF + NSG",
+      "category": "patterns",
+      "file": "patterns/webapp-security-stack.md",
+      "slug": "patterns-webapp-security-stack",
+      "glossaryRefs": [
+        "azure-application-gateway",
+        "azure-front-door"
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Secure Secret Access — App Service / AKS + Managed Identity + Key Vault",
+      "category": "patterns",
+      "file": "patterns/secure-secrets.md",
+      "slug": "patterns-secure-secrets",
+      "glossaryRefs": [
+        "azure-app-service",
+        "managed-identity"
+      ]
+    },
+    {
+      "id": 47,
+      "title": "AKS Monitoring — Container Insights + Log Analytics + Workbooks + Alerts",
+      "category": "patterns",
+      "file": "patterns/aks-monitoring.md",
+      "slug": "patterns-aks-monitoring",
+      "glossaryRefs": [
+        "azure-monitor",
+        "container-insights"
+      ]
+    }
+  ],
+  "categories": [
+    "compute",
+    "databases",
+    "identity & governance",
+    "messaging",
+    "migration",
+    "monitoring & backup",
+    "networking",
+    "patterns",
+    "storage"
+  ]
+}
